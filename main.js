@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function(e){
         secondHand.style.transform = `rotate(${seconds}deg)`;
         minuteHand.style.transform = `rotate(${minutes}deg)`;
         hourHand.style.transform = `rotate(${hours}deg)`;
-        
      }
     setInterval(setHour,1000);
 
